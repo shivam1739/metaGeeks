@@ -1,0 +1,158 @@
+.auth-page {
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: solid black; */
+  background-color: rgba(255, 166, 0, 0.71);
+  height: 100vh;
+}
+.container {
+  width: 55%;
+
+  height: 70%;
+  margin: auto;
+  border: solid orange;
+  background-color: white;
+}
+.logo {
+  width: 100%;
+  height: 3rem;
+  cursor: pointer;
+}
+.form-div {
+  width: 100%;
+  height: auto;
+  /* border: solid black; */
+}
+.rem-form-div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.fieldf {
+  width: 80%;
+  margin-top: 2rem;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+.fieldt {
+  /* border: solid black; */
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+  height: 3rem;
+}
+.field {
+  /* border: solid black; */
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+  height: 3rem;
+}
+.lable {
+  z-index: 10;
+  position: absolute;
+  top: -11px;
+  left: 7px;
+  font-size: 12px;
+  background-color: white;
+  color: orange;
+}
+.input-text {
+  position: relative;
+
+  width: 99%;
+  height: 100%;
+}
+.btn-con {
+  margin-top: 2rem;
+  width: 99%;
+  height: 4rem;
+  /* border: solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  width: 50%;
+  height: 80%;
+  background-color: rgba(255, 166, 0, 0.745);
+  border: none;
+}
+.is-account {
+  width: auto;
+  color: black;
+  cursor: pointer;
+}
+.is-account:hover {
+  text-decoration: underline;
+}
+
+.btn:focus {
+  box-shadow: 10px 10px 5px lightblue;
+}
+.err {
+  color: red;
+}
+.radioBtn {
+  width: 80%;
+  margin: auto;
+  height: 3rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+@media screen and (max-width: 900px) {
+  .auth-page {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.71);
+    height: 100vh;
+  }
+  .container {
+    width: 60%;
+
+    height: 70%;
+    margin: auto;
+    border: solid orange;
+    background-color: white;
+  }
+  .fieldt {
+    /* border: solid black; */
+    margin-top: 2rem;
+    position: relative;
+    width: 39%;
+    height: 3rem;
+  }
+}
+@media screen and (max-width: 555px) {
+  .auth-page {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 166, 0, 0.71);
+    height: 100vh;
+  }
+  .container {
+    width: 80%;
+
+    height: 70%;
+    margin: auto;
+    border: solid orange;
+    background-color: white;
+  }
+  .fieldt {
+    /* border: solid black; */
+    margin-top: 2rem;
+    position: relative;
+    width: 39%;
+    height: 3rem;
+  }
+}

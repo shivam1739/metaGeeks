@@ -1,0 +1,41 @@
+.uploadSection {
+  width: 50%;
+  margin: auto;
+  border: solid black;
+  height: 7rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-left: 5rem;
+}
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+button {
+  height: 2rem;
+  width: 5rem;
+  cursor: pointer;
+  align-items: center;
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  border-color: transparent;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+label {
+  font-weight: 600;
+  font-size: 2re;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
